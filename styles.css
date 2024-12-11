@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Light gray-blue background */
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff; /* White background for the form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 25px;
+    font-size: 1.8em;
+}
+form label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: bold;
+    color: #555; /* Slightly lighter gray text */
+}
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Subtle background for inputs */
+    font-size: 16px;
+    color: #333; /* Dark text color for better readability */
+}
+form input:focus, form textarea:focus, form select:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25); /* Soft glow around input fields */
+}
+form button {
+    background-color: #007bff; /* Bright blue button */
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+form button:active {
+    background-color: #004085; /* Even darker blue when clicked */
+}
+#successMessage {
+    background-color: #e2f0d9; /* Light green background */
+    color: #3c763d; /* Dark green text */
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 6px;
+    margin-top: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+
